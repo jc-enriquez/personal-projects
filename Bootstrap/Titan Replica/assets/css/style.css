@@ -4,3 +4,12 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   overflow-x: hidden;
 }
+
+.shop-btn {
+  margin-bottom: -40px;
+  z-index: 1;
+}
+
+header img {
+  z-index: -1;
+}
