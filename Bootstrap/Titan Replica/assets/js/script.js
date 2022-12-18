@@ -1,7 +1,3 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new swiper(".swiper", {
   direction: "vertical",
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
 });
