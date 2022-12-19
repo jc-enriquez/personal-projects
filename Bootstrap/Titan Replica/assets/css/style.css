@@ -30,3 +30,22 @@ body {
 header img {
   z-index: -1;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000;
+}
+
+footer {
+  background-color: #000;
+}
+
+.input-group > input[type="email"],
+.input-group-text {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.input-group > input[type="email"]::placeholder {
+  color: #fff;
+}
