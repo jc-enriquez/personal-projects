@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titan Replica | Jc Enriquez</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Start of Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container">
+        <!-- Navigation Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="./assets/images/LOGO.webp" alt="Titan logo" width="100" />
+        </a>
+        <!-- End of Navigation Logo -->
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav fs-5 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-dark" href="#"
+                >shop all</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-dark" href="#"
+                >footwear</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-dark" href="#"
+                >apparel</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-dark" href="#"
+                >accessories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-dark" href="#"
+                >brands</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-dark" href="#"
+                >access</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- End of Navigation Links -->
+        <!-- Breadcrumb links -->
+        <!-- Icons -->
+        <div class="d-flex fs-5">
+          <i class="fa-solid fa-magnifying-glass me-3"></i>
+          <i class="fa-solid fa-cart-shopping me-3"></i>
+          <i class="fa-regular fa-user"></i>
+        </div>
+        <!-- End of Icons -->
+        <!-- Navigation Toggler for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- End of Navigation Toggler for Mobile -->
+      </div>
+    </nav>
+    <!-- End of Navigation Bar -->
+    <main>
+      <section class="container mt-5 px-5">
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item text-uppercase fs-4" aria-current="page">
+              Home
+            </li>
+            <li class="breadcrumb-item text-uppercase fs-4" aria-current="page">
+              Products
+            </li>
+            <li class="breadcrumb-item text-uppercase fs-4" aria-current="page">
+              AIR JORDAN 2 RETRO LOW SP 'TITAN'
+            </li>
+          </ol>
+        </nav>
+        <!-- End of Breadcrumb Navigation -->
+        <div class="row">
+          <!-- Product Images -->
+          <div class="col-8 product-images"></div>
+          <!-- End of Product Images -->
+          <!-- Product Description -->
+          <div class="col-4 product-description">
+            <div class="product-info">
+              <!-- Start of Product Text -->
+              <div class="product-text mb-4">
+                <span class="d-block text-uppercase text-muted fs-5"
+                  >jordan</span
+                >
+                <h1 class="fw-bold">Air Jordan 2 Retro Low SP 'TITAN'</h1>
+                <p class="text-uppercase text-muted fs-5">
+                  sail/safety orange chlorophyll
+                  <span class="d-block">DV6206-183</span>
+                </p>
+                <p class="fs-5">₱11,895.00</p>
+                <p class="m-0">
+                  Spread the love. Tell the stories. Step into greatness.
+                  Teaming up with Filipino basketball collective, Titan, this
+                  timeless take on the AJ2 bridges past, present and future.
+                  With an unquestionable passion for the game,
+                  <span id="trigger"></span>
+                  <span id="read-more"
+                    >designer Chi Loyzaga-Gibbs sets the stage with an honorary
+                    look that's rooted to the beloved 1954 Filipino national
+                    team. Premium suede, richly textured corduroy and crisp
+                    leather combine with a speckled midsole, while original
+                    artwork connects you to the hoops heartbeat no matter where
+                    you are.
+                  </span>
+                </p>
+                <button
+                  class="border-0 btn p-0 text-decoration-underline"
+                  onclick="readMore()"
+                  id="readmore-btn"
+                >
+                  read more
+                </button>
+              </div>
+              <!-- End of Product Text -->
+              <div class="product-sizes">
+                <div class="d-flex justify-content-between">
+                  <span class="text-uppercase">choose a size:</span>
+                  <span class="text-capitalize text-decoration-underline"
+                    >view size chart</span
+                  >
+                </div>
+                <div class="available-sizes d-flex"></div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Product Description -->
+        </div>
+      </section>
+    </main>
+    <!-- End of Main -->
+    <!-- Start of Footer -->
+    <footer class="text-white p-5 mt-auto">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Links -->
+          <div class="col-lg-9">
+            <div class="d-flex">
+              <ul>
+                <li class="text-uppercase fw-bold nav-link">contact us</li>
+                <li class="text-uppercase fw-bold nav-link">about us</li>
+                <li class="text-uppercase fw-bold nav-link">store locator</li>
+                <li class="text-uppercase fw-bold nav-link">barbershop</li>
+                <li class="text-uppercase fw-bold nav-link">careers</li>
+                <li class="text-uppercase fw-bold nav-link">titan on-demand</li>
+              </ul>
+              <ul>
+                <li class="text-uppercase fw-bold nav-link">
+                  track your order
+                </li>
+                <li class="text-uppercase fw-bold nav-link">size chart</li>
+                <li class="text-uppercase fw-bold nav-link">faqs</li>
+                <li class="text-uppercase fw-bold nav-link">
+                  returns & exchanges
+                </li>
+                <li class="text-uppercase fw-bold nav-link">
+                  terms of service
+                </li>
+                <li class="text-uppercase fw-bold nav-link">privacy policy</li>
+                <li class="text-uppercase fw-bold nav-link">shipping policy</li>
+              </ul>
+            </div>
+          </div>
+          <!-- End of Footer Links -->
+          <!-- Start of Newsletter -->
+          <div class="col-lg-3">
+            <div class="newsletter">
+              <label for="" class="d-block mb-2"
+                >Subscribe to our newsletter</label
+              >
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control px-3"
+                  placeholder="name@domain.com"
+                  aria-label="name@domain.com"
+                  aria-describedby="basic-addon2"
+                />
+                <span class="input-group-text text-white" id="basic-addon2">
+                  Enter <i class="fa-solid fa-arrow-right ms-2"></i
+                ></span>
+              </div>
+              <div
+                class="social-media-icons mt-3 d-flex justify-content-end d-sm-none d-md-block"
+              >
+                <i class="fa-brands fa-facebook-f fs-5 me-2"></i>
+                <i class="fa-brands fa-instagram fs-5"></i>
+              </div>
+              <div
+                class="social-media-icons mt-3 d-flex justify-content-start d-sm-block d-md-none"
+              >
+                <i class="fa-brands fa-facebook-f fs-5 me-2"></i>
+                <i class="fa-brands fa-instagram fs-5"></i>
+              </div>
+            </div>
+          </div>
+          <!-- End of Newsletter -->
+        </div>
+        <!-- Logo & Copyright -->
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="footer-logo">
+            <img
+              src="./assets/images/titan_logo_black.png"
+              alt=""
+              class="w-50"
+            />
+          </div>
+          <div class="copyright">
+            <small>© 2022 Titanomachy Inc., All Rights Reserved</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

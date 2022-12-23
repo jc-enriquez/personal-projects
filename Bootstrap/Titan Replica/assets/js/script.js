@@ -33,3 +33,18 @@ var sectionSwiper = new Swiper(".section-swiper", {
     },
   },
 });
+// Read More Function
+function readMore() {
+  const trigger = document.getElementById("trigger");
+  const moreText = document.getElementById("read-more");
+  const buttonText = document.getElementById("readmore-btn");
+
+  if (trigger.style.display === "none") {
+    trigger.style.display = "inline";
+    moreText.style.display = "none";
+  } else {
+    trigger.style.display = "none";
+    buttonText.innerHTML = "read less";
+    moreText.style.display = "inline";
+  }
+}

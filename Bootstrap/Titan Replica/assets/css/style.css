@@ -49,3 +49,7 @@ footer {
 .input-group > input[type="email"]::placeholder {
   color: #fff;
 }
+
+#read-more {
+  display: none;
+}
